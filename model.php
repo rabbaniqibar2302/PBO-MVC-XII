@@ -13,7 +13,4 @@ function get_table(){
     $hasil = mysqli_fetch_all($query, MYSQLI_ASSOC);
     return $hasil;
 }
-echo "<pre>";
-print_r(get_table());
-echo "</pre>";
 ?>
